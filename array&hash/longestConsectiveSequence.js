@@ -22,6 +22,17 @@ function longConSeq(nums) {
     return maxCount;
 }
 
-longConSeq([100, 4, 200, 1, 3, 2])
-longConSeq([0, 3, 7, 2, 5, 8, 4, 6, 0, 1])
-longConSeq([9, 1, 4, 7, 3, -1, 0, 5, 8, -1, 6]);
+// longConSeq([100, 4, 200, 1, 3, 2])
+// longConSeq([0, 3, 7, 2, 5, 8, 4, 6, 0, 1])
+// longConSeq([9, 1, 4, 7, 3, -1, 0, 5, 8, -1, 6]);
+
+function longConSeq2(nums) {
+    const set_of_num = new Set(nums);
+    
+
+}
+
+longConSeq2([100, 4, 200, 1, 3, 2])
+longConSeq2([0, 3, 7, 2, 5, 8, 4, 6, 0, 1])
+longConSeq2([9, 1, 4, 7, 3, -1, 0, 5, 8, -1, 6]);
+

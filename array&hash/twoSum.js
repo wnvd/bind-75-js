@@ -1,13 +1,3 @@
-function twoSum(nums, target) {
-    for(let i=0; i<nums.length; i++) {
-        let curr = nums[i];
-        let next = nums[i+1];
-        console.log(curr,next);
-        if(curr+next === target) {
-            return curr+next;
-        }
-    }
-};
 
 // twoSum([2,7,11,15], 9);
 
